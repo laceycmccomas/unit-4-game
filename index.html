@@ -10,7 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-	<div class= container>
+
 	<div class="header">
 		<h1>Crystals Collector</h1>
 	</div>
@@ -46,18 +46,35 @@
 			<span id= "numberLosses"></span>
 		</h2>
 	</div>
-	<div class="gems">
-		<img src="assets/images/crystals.jpg" alt="crystal">
-		<img src="assets/images/crystalsOne.jpg" alt="crystal one">
-		<img src="assets/images/crystalsTwo.jpg" alt="crystal two">
-		<img src="assets/images/crystalsThree.jpg" alt="crystal three">
 	</div>
-	<div class="userTotal">
-		<h2>Your total score is:
+	
+		<div class="row">
+			<div class="col-md-2"></div>
+			<div class="col-md-8">
+		<div class="card-group">
+			<button class="card">
+			<img src="assets/images/crystals.jpg" alt="crystal">
+		</button>
+		<button class="card">
+			<img src="assets/images/crystalsOne.jpg" alt="crystal one">
+		</button>
+		<button class="card">
+			<img src="assets/images/crystalsTwo.jpg" alt="crystal two">
+		</button>
+		<button class="card">
+			<img src="assets/images/crystalsThree.jpg" alt="crystal three">
+		</button>
+		</div>
+		</div>
+	<div class="col-md-2"></div>
+		<div class="userTotal">
+			<h2>Your total score is:
 			<span id="finalTotal"></span>
-		</h2>
+			</h2>
+		</div>
 	</div>
 	<script type="text/javascript" src="assets/javascript/game.js"></script>
-</div>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </body>
 </html>
