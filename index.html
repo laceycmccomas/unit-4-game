@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<title>Crystals Collector</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	<div class= container>
+	<div class="header">
+		<h1>Crystals Collector</h1>
+	</div>
+	<div class="instructions">
+		<h3>This is how you play the game!</h3>
+		</br>
+		<ol>
+			<li>You will be given a random number at the start of the game.<span>"Number To Get"</span></li>
+			<li>There are four crystals below.</li>
+			<ul>
+				<li id="one">One</li>
+				<li id="two">Two</li>
+				<li id="three">Three</li>
+				<li id="four">Four</li>
+			</ul>
+			<li>By clicking on a crystal, you will add a specific amount of points to your total score.</li>
+			<li>You win the game by matching your total score to the random number.</li>
+			<li>You lose the game if your total score goes above the random number.</li>
+			<li>The value of each crystal is hidden from you until you click on the crystal.</li>
+			<li>Each time the game starts, the values of each crystal will change.</li>
+		</ol>
+	</div>
+	<div class="numberToMatch">
+		<h2>Number To Get:
+			<span id= "randomNumber"></span>
+		</h2>
+	</div>
+	<div class="winsAndLosses">
+		<h2>Wins:
+			<span id= "numberWins"></span>
+			</br>
+			Losses: 
+			<span id= "numberLosses"></span>
+		</h2>
+	</div>
+	<div class="gems">
+		<img src="assets/images/crystals.jpg" alt="crystal">
+		<img src="assets/images/crystalsOne.jpg" alt="crystal one">
+		<img src="assets/images/crystalsTwo.jpg" alt="crystal two">
+		<img src="assets/images/crystalsThree.jpg" alt="crystal three">
+	</div>
+	<div class="userTotal">
+		<h2>Your total score is:
+			<span id="finalTotal"></span>
+		</h2>
+	</div>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+</div>
+</body>
+</html>
