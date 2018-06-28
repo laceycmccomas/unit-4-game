@@ -1,8 +1,7 @@
-$(document).ready(function(){
+$(document).ready(function() {
 	var random=Math.floor(Math.random()*101+19)
 	// Selects a random number to be shown at the start of the game
-	// 
-	//
+
 	$('#randomNumber').text(Random);
 	
 	//
@@ -69,7 +68,7 @@ $(document).ready(function(){
 	  userTotal = userTotal + num2;
 	  console.log("userTotal=" + userTotal);
 	  $('#finalTotal').text(userTotal); 
-		  if (userTotal ==random){
+		  if (userTotal == random){
 			yay();
 		  }
 		  else if ( userTotal > random){
@@ -98,6 +97,5 @@ $(document).ready(function(){
 		  }
 		  else if ( userTotal > random){
 			loser();
-		  }
-	});   
-  }); 
+			}
+		});
