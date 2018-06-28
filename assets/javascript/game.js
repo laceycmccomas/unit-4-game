@@ -80,7 +80,7 @@ $(document).ready(function(){
 	  userTotal = userTotal + num3;
 	  console.log("userTotal=" + userTotal);
 	  $('#finalTotal').text(userTotal);
-  //sets win/lose condition
+
 			if (userTotal == random){
 			yay();
 		  }
